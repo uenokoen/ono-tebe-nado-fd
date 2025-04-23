@@ -6,11 +6,11 @@
 .header__address {
   width: 240px;
   height: 98px;
-  position: absolute;  
-  top: 95px;          
-  left: 810px;        
-  text-align: left;  
-  border: 1px solid transparent; 
+  position: absolute;
+  top: 95px;
+  left: 810px;
+  text-align: left;
+  border: 1px solid transparent;
 }
 
 .header__address-link {
@@ -21,24 +21,19 @@
   text-underline-offset: 4px;
 }
 
-
-
 .header__address-text {
   display: block;
   font-size: 18px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .header__links-list li:last-child {
-  padding-left: 5px; /* Сдвигаем только текст, маркер остаётся на месте */
+  padding-left: 5px;
 }
-
-
-
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; /* 3 колонки */
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 20px 50px;
   margin: 0 auto;
@@ -84,13 +79,11 @@
   justify-self: center;
 }
 
-
 .header__logo-image {
   width: 148px;
   height: 105px;
 }
 
-/* Обложка */
 .cover {
   position: relative;
   width: 1100px;
@@ -191,11 +184,10 @@
   opacity: 0.8;
 }
 
-/* Секция лотов */
 .lots {
   width: 1100px;
   margin: 180px auto 0;
-  padding: 0 24px; 
+  padding: 0 24px;
 }
 
 .lots__heading {
@@ -297,8 +289,6 @@
   vertical-align: top;
 }
 
-/* Секция "Об аукционе" */
-/* Основной контейнер — грид с двумя колонками */
 .about {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -310,12 +300,12 @@
 
 .about__logo-container {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   height: 240px;
-  width: 240px; 
-  margin-top: -85px; 
-  margin-left: 20px; 
+  width: 240px;
+  margin-top: -85px;
+  margin-left: 20px;
 }
 
 .about__logo {
@@ -329,7 +319,7 @@
 }
 
 .about__logo-image {
-  width: 145px; 
+  width: 145px;
   height: auto;
   object-fit: contain;
 }
@@ -337,12 +327,10 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   padding-left: 55px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
-
-
 
 .about__title {
   font: 700 40px/1.1 'Raleway', sans-serif;
@@ -357,23 +345,20 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
-  margin-bottom: 25px; /* Отступ между абзацами */
-  max-width: 693px; /* Ширина из макета */
+  margin-bottom: 25px;
+  max-width: 693px;
 }
 
 .about__text:last-child {
-  margin-bottom: 0; /* Убираем отступ у последнего абзаца */
+  margin-bottom: 0;
 }
-/* Футер */
 
-
-/* Контакты (левая колонка) */
 .footer__address {
   width: 264.57px;
   height: 98px;
   font-style: normal;
   text-align: left;
-  padding-top: 1px; 
+  padding-top: 1px;
 }
 
 .footer__address-link {
@@ -384,8 +369,6 @@
   color: #000;
 }
 
-/* Меню (центральная колонка) */
-/* Футер */
 .footer {
   position: absolute;
   width: 1100px;
@@ -398,13 +381,6 @@
   align-items: start;
   padding: 0 50px;
   box-sizing: border-box;
-}
-
-/* Адрес (левая колонка) */
-.address {
-  font-style: normal;
-  line-height: 1.35;
-  justify-self: start;
 }
 
 .address__link {
@@ -420,7 +396,6 @@
   font-size: 18px;
 }
 
-/* Меню (центральная колонка) */
 .footer__menu {
   justify-self: center;
 }
@@ -449,7 +424,6 @@
   text-decoration: none;
 }
 
-/* Социальные сети (правая колонка) */
 .footer__social-list {
   list-style: none;
   padding: 0;
@@ -470,4 +444,3 @@
   height: 100%;
   object-fit: contain;
 }
-
