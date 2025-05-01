@@ -136,7 +136,7 @@
 
 .aligned-text_right {
   text-align: right;
-  margin-left: 613px; 
+  margin-right: -0.3em; 
   padding-left: 0;
   width: auto; 
   
@@ -354,7 +354,7 @@
 .footer {
   width: 1100px;
   margin: 0 auto;
-  padding: 93px 50px;
+  padding: 73px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
@@ -444,4 +444,13 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.text-block {
+  margin-bottom: 25px; /* отступ между блоками */
+}
+
+.text-line {
+  margin: 0;
+  white-space: nowrap; /* запрет переноса строк */
 }
